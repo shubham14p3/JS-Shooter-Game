@@ -1,11 +1,11 @@
 {
-  "name": "phaser3-project-template",
-  "version": "1.0.9",
+  "name": "phaser3-project-template-2",
+  "version": "1.0.0",
   "description": "A Phaser 3 Project Template",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack",
-    "start": "npm run build && webpack-dev-server --port=8000 --watch"
+    "start": "npm run build && webpack-dev-server --port=8000"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,7 @@
   "devDependencies": {
     "webpack-dev-server": "^2.11.0",
     "webpack": "^3.4.1",
-    "raw-loader": "^0.5.1"
-  },
-  "dependencies": {
+    "raw-loader": "^0.5.1",
     "phaser": "^3.3.0"
   }
 }
