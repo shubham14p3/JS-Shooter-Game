@@ -1,22 +1,22 @@
 {
-  "name": "phaser3-project-template-2",
+  "name": "js-shooter-game",
   "version": "1.0.0",
-  "description": "A Phaser 3 Project Template",
+  "description": "Shooter Game made on JS and much more",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack",
-    "start": "npm run build && webpack-dev-server --port=8000"
+    "start": "npm run build && webpack-dev-server --port=8001"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://scottwestover@bitbucket.org/creativerendering/phaser3-template.git"
+    "url": "git+https://github.com/shubham14p3/JS-Shooter-Game.git"
   },
   "license": "MIT",
   "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
   "bugs": {
-    "url": "https://github.com/photonstorm/phaser3-project-template/issues"
+    "url": "https://github.com/shubham14p3/JS-Shooter-Game/issues"
   },
-  "homepage": "https://github.com/photonstorm/phaser3-project-template#readme",
+  "homepage": "https://github.com/shubham14p3/JS-Shooter-Game#readme",
   "devDependencies": {
     "webpack-dev-server": "^2.11.0",
     "webpack": "^3.4.1",
