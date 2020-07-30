@@ -43,8 +43,8 @@
 - W key => Move up.
 - D key => Move right.
 - S key => Move down.
-- J key => Confundus Charm.
-- I key => Patronus Charm.
+- J key => Fire Beam.
+- I key => Picolo arrives.
 
 ## Game development
 
