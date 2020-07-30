@@ -5,10 +5,10 @@
   "main": "src/index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "npm run build && webpack-dev-server --port=8080 --open",
-    "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
-    "test": "git+https://github.com/shubham14p3/JS-Shooter-Game.git",
-    "heroku-postbuild": "webpack -p"
+    "dev": "npm run build && webpack-dev-server --port=8080",
+    "start": "npm run build && webpack-dev-server && node server.js",
+    "test": "jest",
+    "heroku-prebuild": "npm install --dev"
   },
   "repository": {
     "type": "git",
