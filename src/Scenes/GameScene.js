@@ -1,5 +1,5 @@
 import 'phaser';
-import { Player, Dementor, DeathEater } from '../Objects/Entities';
+import { Player, Beerus, Picolo } from '../Objects/Entities';
 import LocalStorage from '../Objects/localStorage';
 
 let scoreText;
@@ -17,7 +17,7 @@ export default class GameScene extends Phaser.Scene {
       frameHeight: 49,
     });
 
-    this.load.image('dementor', 'assets/entities/beerus.png');
+    this.load.image('beerus', 'assets/entities/beerus.png');
 
     this.load.image('ak', 'assets/entities/ak.png');
     this.load.image('ex', 'assets/entities/ex.png');
@@ -78,14 +78,14 @@ export default class GameScene extends Phaser.Scene {
         let enemy = null;
         if (Phaser.Math.Between(0, 10) >= 5) {
           if (this.enemies.getChildren().length < 6) {
-            enemy = new DeathEater(
+            enemy = new Picolo(
               this,
               this.game.config.width * 0.9,
               this.game.config.height * 0.5,
             );
           }
         } else if (this.getEnemiesByType('ChaserShip').length < 15) {
-          enemy = new Dementor(
+          enemy = new Beerus(
             this,
             this.game.config.width * 0.95,
             this.game.config.height * Math.random(),

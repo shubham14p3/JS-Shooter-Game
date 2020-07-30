@@ -1,9 +1,7 @@
 import 'phaser';
 import config from '../Config/config';
 import Button from '../Objects/Button';
-/* eslint-disable func-names */
-/* eslint-disable no-unused-expressions */
-/* eslint-disable no-undef */
+
 export default class CreditsScene extends Phaser.Scene {
   constructor() {
     super('Credits');

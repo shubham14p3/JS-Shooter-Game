@@ -55,7 +55,7 @@ export class ExpectoPatronum extends Entity {
   }
 }
 
-export class AvadaKedavra extends Entity {
+export class FlameBeamer extends Entity {
   constructor(scene, x, y) {
     super(scene, x, y, 'ak');
     this.body.velocity.x = -200;
@@ -130,9 +130,9 @@ export class Player extends Entity {
   }
 }
 
-export class Dementor extends Entity {
+export class Beerus extends Entity {
   constructor(scene, x, y) {
-    super(scene, x, y, 'dementor', 'ChaserShip');
+    super(scene, x, y, 'beerus', 'ChaserShip');
     this.body.velocity.y = Phaser.Math.Between(50, 100);
 
     this.states = {
@@ -164,7 +164,7 @@ export class Dementor extends Entity {
   }
 }
 
-export class DeathEater extends Entity {
+export class Picolo extends Entity {
   constructor(scene, x, y) {
     super(scene, x, y, 'de', 'GunShip');
     this.play('de');
@@ -174,7 +174,7 @@ export class DeathEater extends Entity {
     this.shootTimer = this.scene.time.addEvent({
       delay: 1500,
       callback() {
-        const laser = new AvadaKedavra(this.scene, this.x, this.y);
+        const laser = new FlameBeamer(this.scene, this.x, this.y);
         laser.setScale(this.scaleX);
         this.scene.enemyLasers.add(laser);
       },
