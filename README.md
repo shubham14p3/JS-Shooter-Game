@@ -8,7 +8,7 @@
 > DBZ is a 2D shooter game inspired by the Dragon Ball Z. The game is browser-based, designed on Phaser 3, and it uses a collection of amazing art by various designers (Please refer to the Acknowledgment section for more information). The objective of the game is to score the highest possible score while defeating the evil Vegeta and Beerus on your way. The main character Goku can call Picolo for help.
 
 ## Booting Screen
-![screenshot1](./assets/screenshots/bootingScreen.PNG
+![screenshot1](./assets/screenshots/bootingSceen.png)
 
 ## Play Screen
 ![screenshot1](./assets/screenshots/playScreen.PNG)
