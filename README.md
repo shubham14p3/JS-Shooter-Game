@@ -1,4 +1,4 @@
-# Phaser 3 Webpack Project Template
+# Phaser 3 Webpack Proje ct Template
 
 A Phaser 3 Project Template
 
