@@ -8,21 +8,27 @@
 > DBZ is a 2D shooter game inspired by the Dragon Ball Z. The game is browser-based, designed on Phaser 3, and it uses a collection of amazing art by various designers (Please refer to the Acknowledgment section for more information). The objective of the game is to score the highest possible score while defeating the evil Vegeta and Beerus on your way. The main character Goku can call Picolo for help.
 
 ## Booting Screen
+
 ![screenshot1](./assets/screenshots/bootingSceen.png)
 
 ## Play Screen
+
 ![screenshot1](./assets/screenshots/playScreen.PNG)
 
 ## Credit Screen
+
 ![screenshot1](./assets/screenshots/creditScreen.PNG)
 
 ## Options Screen
+
 ![screenshot1](./assets/screenshots/optionScreen.PNG)
 
 ## Play Ground Screen
+
 ![screenshot1](./assets/screenshots/playGround.PNG)
 
 ## Top Score Screen
+
 ![screenshot1](./assets/screenshots/topScreen.PNG)
 
 > For developing the game, I used JavaScript and Phaser 3 along with Express to host it on Heroku. I implemented an API provided by [Microverse](https://www.microverse.org/) to host the scoring database so that the highest scores will always be available for new users to try to beat! The API implementation required the use of promises and Async functions. I also used Classes and Modules to integrate everything in an industry-standard code style while implementing JavaScript, HTML, and CSS best practices.
@@ -31,7 +37,7 @@
 
 [Live Version](https://suspicious-fermat-6c4f3b.netlify.app/)
 
-### Controls
+### Control's
 
 - A key => Move left.
 - W key => Move up.
@@ -48,7 +54,7 @@
 | Day 2 |             Game Design              |              I designed the workflow for the next few days to be able to achieve all the requirements on time. I designed the basic structure and flow of the game. I gathered all the Sprites, the music theme, and images that I needed for the development of the project. I decided which scenes I would implement and created the template for the project.               |                                            By the end of the day, I had a functional template that used Webpack to start implementing the scenes for my game. I had the workflow for the next few days and the game concept.                                             | &#9745; |
 | Day 3 |           Game Development           | I created the game itself using all the phaser tools and knowledge acquired during the last couple of days. I decided to let out some of the original ideas for the project since the creation of it was not trivial, and it required a lot of resourcefulness to be able to overcome all the blockers along the way. I implemented the scoring system using the provided API. |                                                       By the end of the day, I had a fully working game that ran on my local environment. I still had some styling to do, but in general, I had a working project.                                                       | &#9745; |
 | Day 4 |   Testing, Styling, and Deployment   |                                                I added the final design details to the game, like background images and personalized logo. I refactored my code to be able to test it using Jest. I made the tests for the modules I created to add functionality to the Phaser module. Finally, I deployed the app to Heroku.                                                 | By the end of the day, I had a complete project that was accessible everywhere through Heroku hosting. The code was following industry standards for styling and modularity. I created tests for the methods I coded and implemented, and everything was up and running. | &#9745; |
-| Day 5 | Documentation and request for review |                                                                    I added the README.md file, and made a final round of testing. I tested the code functionality to make sure it is working on Netlify as well as on the local environment. I used Jest for testing my code again, and request the review.                                                                     |                                                                              By the end of the day, I had completed the project with the requirements, and submitted a request for review..                                                                              |    🖋    |
+| Day 5 | Documentation and request for review |                                                                    I added the README.md file, and made a final round of testing. I tested the code functionality to make sure it is working on Netlify as well as on the local environment. I used Jest for testing my code again, and request the review.                                                                    |                                                                              By the end of the day, I had completed the project with the requirements, and submitted a request for review..                                                                              |    🖋    |
 
 ## Built With
 
