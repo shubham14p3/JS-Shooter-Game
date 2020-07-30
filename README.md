@@ -11,7 +11,7 @@
 ![screenshot1](./assets/screenshots/bootingSceen.PNG
 
 ## Play Screen
-![screenshot1](./assets/screenshots/playScreen.PNG))
+![screenshot1](./assets/screenshots/playScreen.PNG)
 
 ## Credit Screen
 ![screenshot1](./assets/screenshots/creditScreen.PNG)
