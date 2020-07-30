@@ -10,7 +10,7 @@ export default class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("bg", "assets/entities/battle_ground_area.png");
+    this.load.image('bg', 'assets/entities/battle_ground_area.png');
 
     this.load.spritesheet('de', 'assets/entities/friza.png', {
       frameWidth: 32,

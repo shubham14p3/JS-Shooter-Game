@@ -3,17 +3,17 @@ const API = (() => {
   async function getKey() {
     try {
       const response = await fetch(
-        "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/",
+        'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/',
         {
-          method: "POST",
+          method: 'POST',
           headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json",
+            Accept: 'application/json',
+            'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            name: "DBZ Legend 2D Shooter",
+            name: 'DBZ Legend 2D Shooter',
           }),
-        }
+        },
       );
       return response;
     } catch (error) {
@@ -24,14 +24,14 @@ const API = (() => {
   async function getScores() {
     try {
       const scores = await fetch(
-        "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ShHhUjBgHfAdsM/scores/",
+        'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ShHhUjBgHfAdsM/scores/',
         {
-          method: "GET",
+          method: 'GET',
           headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json",
+            Accept: 'application/json',
+            'Content-Type': 'application/json',
           },
-        }
+        },
       );
       return scores.json();
     } catch (error) {
@@ -42,18 +42,18 @@ const API = (() => {
   async function postScores(name, score) {
     try {
       const result = await fetch(
-        "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ShHhUjBgHfAdsM/scores/",
+        'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ShHhUjBgHfAdsM/scores/',
         {
-          method: "POST",
+          method: 'POST',
           headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json",
+            Accept: 'application/json',
+            'Content-Type': 'application/json',
           },
           body: JSON.stringify({
             user: name,
             score,
           }),
-        }
+        },
       );
       return result.json();
     } catch (error) {
@@ -61,7 +61,7 @@ const API = (() => {
     }
   }
 
-  return {getScores, postScores};
+  return { getScores, postScores };
 })();
 
 export default API;
