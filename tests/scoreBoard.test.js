@@ -1,9 +1,9 @@
-import API from "../src/Objects/api";
+import API from '../src/Objects/api';
 
-it("Retrieves the scores from the DB", () => {
+it('Retrieves the scores from the DB', () => {
   API.getScores()
     .then((response) => {
-      expect(response).toBe("Succeed");
+      expect(response).toBe('Succeed');
     })
     .catch((error) => error);
 });
