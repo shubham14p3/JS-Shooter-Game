@@ -15,7 +15,14 @@ export default class PreloaderScene extends Phaser.Scene {
     this.load.image('blueButton2', 'assets/ui/blue_button03.png');
     this.load.image('box', 'assets/ui/grey_box.png');
     this.load.image('checkedBox', 'assets/ui/blue_boxCheckmark.png');
-    this.load.audio('bgMusic', 'assets/titleTheme.mp3');
+
+    // Load audio with decodeAudio option set to true
+    this.load.audio('bgMusic', 'assets/titleTheme.mp3', {
+      decodeAudio: true
+    }).on('decoded', () => {
+      // Audio is ready to play
+      this.sound.play('bgMusic');
+    });
 
     const progressBar = this.add.graphics();
     const progressBox = this.add.graphics();

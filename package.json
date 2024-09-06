@@ -40,11 +40,11 @@
   "author": "Shubham Raj",
   "dependencies": {
     "css-loader": "^3.6.0",
+    "express": "^4.14.0",
     "file-loader": "^6.0.0",
-    "phaser": "^3.23.0",
+    "phaser": "^3.85.0",
     "regenerator-runtime": "^0.13.5",
     "style-loader": "^1.2.1",
-    "url-loader": "^4.1.0",
-    "express": "^4.14.0"
+    "url-loader": "^4.1.0"
   }
 }
