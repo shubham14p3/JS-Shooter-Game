@@ -40,7 +40,7 @@
   "author": "Shubham Raj",
   "dependencies": {
     "css-loader": "^3.6.0",
-    "express": "^4.14.0",
+    "express": "^4.21.0",
     "file-loader": "^6.0.0",
     "phaser": "^3.85.0",
     "regenerator-runtime": "^0.13.5",
